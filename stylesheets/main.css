@@ -1,0 +1,43 @@
+body {
+    background: #191919;
+    color: #DC1CB9A;
+    font-family: arial, helvetica, sans-serif;
+    font-size: small;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    color: #ABA071;
+    font-size: 400%;
+    font-weight: normal;
+}
+
+h3 {
+    color: #97B32B;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+a {
+    color: #FF9900;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    color: #D4D26C;
+    text-decoration: underline;
+}
+
+section {
+    padding: 20em;
+}
+
+section#content div.count {
+    color: #FFFFFF;
+    font-size: 300%;
+}

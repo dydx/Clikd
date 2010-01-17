@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+  <body id="index" class="home">
+    <header>
+      <h1>Clikd</h1>
+      <h3>a simple click counter built on Google App Engine<h3>
+    </header>
+    <article>
+      <section id="content">
+	{% if clicks %}
+	<div class="count">{{ clicks }}</div>
+	{% else %}
+	<div class="count">No Clicks</div>
+	{% endif %}
+      </section>
+      <form action="/click" method="post">
+	<p><input type="submit" value="Click" /></p>
+      </form>
+    </article>
+    <footer>
+      <p><a href="{{ url }}">{{ url_linktext }}</a></p>
+    </footer>
+  <body>
+</html>
